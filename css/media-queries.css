@@ -77,27 +77,36 @@ footer {
 @media screen and (min-width: 700px){
     .alert-info{
         background-color: white;
+        outline: none;
+        margin: 0;
 
+    }
+    .hidden-on-desktop {
+        display: none;
     }
     h1{
         text-align: left;
-        margin: 0 .5em;
+        margin: 1em .5em;
 
     }
-
     .nav-links{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         position: relative;
-        bottom: 5.5em;
+        bottom: 8.5em;
     }
-
     li{
         align-items: center;
         background-color: white;
+        padding-right: .10em;
+        position: relative;
+        top: .5em;
     }
-
+    .lowerBody {
+        position: relative;
+        bottom: 8em;
+    }
     .paragraphs{
         display: flex;
         flex-direction: row;
@@ -107,7 +116,6 @@ footer {
         position: relative;
         right: .8em;
     }
-
     footer{
         align-items: flex-end;
     }
