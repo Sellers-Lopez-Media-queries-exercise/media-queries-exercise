@@ -4,6 +4,8 @@ main{
     flex-direction: column;
     background-color: white;
     width: 80%;
+    /*align-items: center;*/
+
 }
 
 body{
@@ -16,11 +18,12 @@ body{
     outline: 1px solid grey;
     padding: 1.5em;
     text-align: center;
-    margin: 1em;
+    margin: 1em ;
 }
 
 h1{
     text-align: center;
+    font-size: xxx-large;
 }
 
 .alert-info a{
@@ -29,17 +32,21 @@ h1{
     text-align: center;
 }
 
-ul{
+.nav-links {
     display: flex;
     flex-direction: column;
+
 }
 
 li{
     background-color: silver;
-    padding: .5em;
-    margin: .5em ;
+    padding: 1.5em;
+    margin: 1em 0;
     text-align: center;
     list-style-type: none;
+    position: relative;
+    right: 1.2em;
+
 }
 
 .header-img{
@@ -47,6 +54,24 @@ li{
 
 }
 
-h2{
-    padding: 1em;
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main {
+    margin: 1em;
+}
+
+.sub-section {
+    font-style: italic;
+    margin: 1em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background: red;
+
 }
